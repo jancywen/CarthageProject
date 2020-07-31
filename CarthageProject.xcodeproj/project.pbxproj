@@ -13,6 +13,7 @@
 		E442C95324C572C400A09177 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E442C95124C572C400A09177 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E442C95624C5772C00A09177 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E442C95524C5772C00A09177 /* RxRelay.framework */; };
 		E442C95724C5772C00A09177 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E442C95524C5772C00A09177 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E44E7CCC24C97018004AD20C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44E7CCB24C97018004AD20C /* SwiftUIView.swift */; };
 		E880A32024C453BE00547478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E880A31F24C453BE00547478 /* AppDelegate.swift */; };
 		E880A32224C453BE00547478 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E880A32124C453BE00547478 /* SceneDelegate.swift */; };
 		E880A32424C453BE00547478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E880A32324C453BE00547478 /* ViewController.swift */; };
@@ -61,6 +62,7 @@
 		E442C94D24C572BF00A09177 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		E442C95124C572C400A09177 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		E442C95524C5772C00A09177 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		E44E7CCB24C97018004AD20C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		E880A31C24C453BE00547478 /* CarthageProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E880A31F24C453BE00547478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E880A32124C453BE00547478 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				E880A32324C453BE00547478 /* ViewController.swift */,
+				E44E7CCB24C97018004AD20C /* SwiftUIView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				E880A32024C453BE00547478 /* AppDelegate.swift in Sources */,
 				E880A32A24C453BE00547478 /* CarthageProject.xcdatamodeld in Sources */,
 				E880A32224C453BE00547478 /* SceneDelegate.swift in Sources */,
+				E44E7CCC24C97018004AD20C /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
